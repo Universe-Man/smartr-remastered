@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Header from "@/components/Header";
 import Link from "next/link"
 
-export default function Home() {
+export default function Landing() {
   return (
     <div className={styles.page}>
       <Header />
