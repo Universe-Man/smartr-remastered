@@ -40,3 +40,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.main-container {
+  background-color: aquamarine;
+}

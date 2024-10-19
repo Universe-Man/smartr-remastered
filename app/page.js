@@ -8,7 +8,7 @@ export default function Landing() {
     <div className={styles.page}>
       {/* <Header /> */}
       <main className={styles.main}>
-        <h1>Smartr Remastered</h1>
+        <h1>Welcome to Smartr 2.0</h1>
         {/* <Image
           className={styles.logo}
           src="https://nextjs.org/icons/next.svg"
@@ -17,12 +17,12 @@ export default function Landing() {
           height={38}
           priority
         /> */}
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <div>
+          <p>
+            Do You Have What It Takes
+          </p>
+          <p>To Be A Know-It-All?</p>
+        </div>
 
         <div className={styles.ctas}>
           <Link href="/login">Login</Link>

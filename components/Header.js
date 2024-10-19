@@ -11,9 +11,10 @@ const Header = () => {
     return (
       <header>
         <nav>
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/home">Home</Link>
+          <Link href="/home/leaderboard">Leaderboard</Link>
+          {/* <Link href="/">Log Out</Link> (only appears if logged in) */}
+          <Link href="/">Exit</Link>
         </nav>
       </header>
     );
