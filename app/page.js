@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Landing() {
   return (
     <div className={styles.page}>
-      <Header />
+      {/* <Header /> */}
       <main className={styles.main}>
         <h1>Smartr Remastered</h1>
         {/* <Image
